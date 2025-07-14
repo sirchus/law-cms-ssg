@@ -1,4 +1,15 @@
-baseURL: "http://hugo-quickstart-template.netlify.com"
-languageCode: "en-us"
-title: "Netlify + Hugo Quickstart"
-theme: "netlify-basic"
+baseURL: 'https://exquisite-marzipan-9d47b7.netlify.app/'
+languageCode: 'en-us'
+title: 'LAW - Land Air Water'
+theme: 'ananke'
+
+params:
+  featured_image: '/images/gohugo-default-sample-hero-image.jpg'
+  body_classes: "avenir bg-near-white"
+
+menu:
+  main:
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 10
